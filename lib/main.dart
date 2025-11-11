@@ -13,6 +13,8 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text('Hello World!'),
               Text('Hello Belka!'),
@@ -27,17 +29,17 @@ class MainApp extends StatelessWidget {
                 style: TextStyle(color: Colors.deepOrangeAccent,fontSize: 24),
               )),
                Container(
-                margin :EdgeInsets.all(10),
-                padding: EdgeInsets.all(5),
+                margin: EdgeInsets.symmetric(vertical: 20, horizontal: 40),
+                padding: EdgeInsets.all(18),
                 decoration: BoxDecoration(
-                  color: Colors.amberAccent,
-                  borderRadius: BorderRadius.circular(25),
+                  color: const Color.fromARGB(255, 144, 61, 199),
+                  borderRadius: BorderRadius.circular(30),
                 ),
-                child: Text("Ma 2e boite stylisée",
-                style: TextStyle(color: Colors.black,fontSize: 44),
+                child: Text("*Boite magique*",
+                style: TextStyle(color: const Color.fromARGB(255, 41, 10, 214),fontSize: 30),
                 )),
                 Stack(
-                  alignment: Alignment.center,
+                  alignment: Alignment.topRight,
                   children: [
                     Container(width: 200, height: 200, color: Colors.blue[100]),
                     Icon(Icons.star, size: 100, color: Colors.amber),
@@ -58,7 +60,7 @@ class MainApp extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        Text('Titre principal', style: TextStyle(fontSize: 30)),
+                        Text('Titre principal', style: TextStyle(fontSize: 38, fontWeight: FontWeight.bold, color: Colors.indigo, letterSpacing: 2)),
                         SizedBox(height: 20),
                         Text('Sous-titre ou description'),
                         Icon(Icons.thumb_up, color: Colors.green, size: 40),
