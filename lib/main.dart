@@ -43,8 +43,17 @@ class MainApp extends StatelessWidget {
                     Icon(Icons.star, size: 100, color: Colors.amber),
                     Text("Superposé !",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                     )
-                  ],
-                )
+                  ], ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Icon(Icons.home, color: Colors.blue, size: 40),
+                      Icon(Icons.star, color: Colors.amber, size: 40),
+                      Icon(Icons.settings, color: Colors.grey, size: 40),
+                      Icon(Icons.phone, color: const Color.fromARGB(255, 201, 9, 9), size: 40),
+                    ],
+                  )
             ],
           ),
         ),
