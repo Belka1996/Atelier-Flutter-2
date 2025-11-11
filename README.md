@@ -94,15 +94,15 @@ Le projet consiste à créer une petite application Flutter contenant plusieurs 
 - Visual Studio Code ou Android Studio
 - Extension Flutter activée
 
-### Commandes :
-```bash
-flutter pub get
-flutter run
+ 
 
 -----
+
+captures d'ecran:
 
 ![wait](https://github.com/user-attachments/assets/e4987df0-d801-4797-a955-df08c3365e63)
 
 
 ![wait](https://github.com/user-attachments/assets/26903d08-2ad9-4bc7-9080-957b606d9dfb)
+
 
