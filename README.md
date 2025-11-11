@@ -79,6 +79,12 @@ Le projet consiste à créer une petite application Flutter contenant plusieurs 
 
 ![wait](https://github.com/user-attachments/assets/26903d08-2ad9-4bc7-9080-957b606d9dfb)
 
+![wait](https://github.com/user-attachments/assets/8b4588cd-b008-410b-bee1-127f94b979e1)
+
+![wait](https://github.com/user-attachments/assets/f83f85fb-ff5f-4766-a48c-ca882f1de62f)
+
+
+
 ---
 
 ## 🧠 Concepts Flutter abordés
@@ -89,12 +95,7 @@ Le projet consiste à créer une petite application Flutter contenant plusieurs 
 
 ---
 
-## 🚀 Lancer le projet
 
-### Prérequis :
-- Flutter SDK installé (version 3.0+)
-- Visual Studio Code ou Android Studio
-- Extension Flutter activée
 
 
 
