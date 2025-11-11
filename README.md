@@ -8,7 +8,7 @@ L’objectif principal est de **découvrir et manipuler les widgets de base de F
 
 ## 👨‍💻 Auteur
 **Belkacem Medjkoune**  
-Étudiant – Collège Boréal (Campus de Toronto / Scarborough)  
+Id étudiant : 300150385  
 Professeur : **Youness Boukouchi**
 
 ---
@@ -94,6 +94,7 @@ Le projet consiste à créer une petite application Flutter contenant plusieurs 
 - Gestion des marges et espacements (`EdgeInsets`, `SizedBox`).
 
 ---
+
 
 
 
